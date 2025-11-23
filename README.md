@@ -93,7 +93,7 @@ pip install tensorflow
 <div align="center">
 
 <img src="https://github.com/adarsh25bai10019-source/Vityarthi-Project/blob/main/check_adar_recog.png?raw=true" width="48%"  />
-<img src="https://github.com/adarsh25bai10019-source/Vityarthi-Project/blob/main/Face_recog_sample.jpeg?raw=true" width="48%" />
+<img src="https://github.com/adarsh25bai10019-source/Vityarthi-Project/blob/main/check_recog.jpeg?raw=true" width="48%" />
 
 </div
    
