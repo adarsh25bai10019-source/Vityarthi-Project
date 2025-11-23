@@ -45,7 +45,7 @@ def get_className(classNo):
 
 </br>
 
-<p> The libraries involved in this project : </p>
+ ### The libraries involved in this project : 
 
 ```markdown
 tensorflow
@@ -63,7 +63,7 @@ pip install tensorflow
 
 </br>
 
-<p>Steps to install and run the project :  </p>
+ ### Steps to install and run the project :  
 </br>
 1. Download the zip file from github repository.
 </br>
@@ -83,10 +83,13 @@ pip install tensorflow
 </br>
 
 
-<p>Important instructions for testing and using the code.  </p>
+ ### Important instructions for testing and using the code. 
 
 1. Check whether the indentation is correct.
 2. Make sure to place the supporting modules are in the correct folder.
 3. Make sure to provide the correct path to the modules.
+4. In the github zip the a "image" folder must be created by the user else the machine will throw an error.
+
+
    
 
