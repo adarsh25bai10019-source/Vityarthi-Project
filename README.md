@@ -37,7 +37,7 @@ def get_className(classNo):
 	if classNo==0:
 		return "Adarsh"
 	elif classNo==1:
-		return "Sharanya"
+		return "Nirmala Sitaraman"
 ```
 <p>This is a code snippet from the test.py and it opens the camera indexed 1 which is the secondary camera , cv2.cVideoCapture(0) opens the primary camera. </p>
 <p>Then we load the keras model which is downloaded from the google teachebale machine and def the categories for which the machine has to dispaly the tag. </p>
