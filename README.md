@@ -6,4 +6,15 @@
 
 ![A sample image of the project](https://github.com/adarsh25bai10019-source/Vityarthi-Project/blob/main/Face_recog_sample.jpeg?raw=true)
 
+</br>
+
+```python
+
+import cv2
+import os
+
+video=cv2.VideoCapture(0)
+
+facedetect=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+
 
