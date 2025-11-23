@@ -64,12 +64,19 @@ pip install tensorflow
 </br>
 
 <p>Steps to install and run the project :  </p>
+</br>
 1. Download the zip file from github repository.
+</br>
 2. Unzip the file in your local environment.
+</br>
 3. Open the python files in a code editor.
+</br>
 4. Collect visual data by inputting your name in the datacollect.py module.
+</br>
 5. Feed the data in google teachebale machine (https://teachablemachine.withgoogle.com/).
+</br>
 6. Download the keras model optimised for your visual data.
+</br>
 7. Run the test.py module and change the labels for the image accoridng to your prefernce.
 
 </br>
