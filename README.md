@@ -91,9 +91,10 @@ pip install tensorflow
 4. In the github zip the a "image" folder must be created by the user else the machine will throw an error.
 
 </br>
-</br>
+
 
  ### Screenshots
+ </br>
 
 <div align="center">
 
