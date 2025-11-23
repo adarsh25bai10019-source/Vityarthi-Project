@@ -8,7 +8,7 @@
 
 </br>
 
-####Features
+Features
 
 ```python
 
@@ -44,6 +44,8 @@ def get_className(classNo):
 <p>If the model matches the data with the historical data from either of the category it will return 0 and 1 . </p>
 
 </br>
+
+<p> The libraries involved in this project : </p>
 
 ```markdown
 tensorflow
