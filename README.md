@@ -90,6 +90,11 @@ pip install tensorflow
 3. Make sure to provide the correct path to the modules.
 4. In the github zip the a "image" folder must be created by the user else the machine will throw an error.
 
+</br>
+</br>
+
+ ### Screenshots
+
 <div align="center">
 
 <img src="https://github.com/adarsh25bai10019-source/Vityarthi-Project/blob/main/check_adar_recog.png?raw=true" width="48%"  />
