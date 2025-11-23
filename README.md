@@ -16,7 +16,7 @@ The model is trained with images of only two people to keep it fast, lightweight
 ### Code Snippets
 
 **1. Data collection setup**
-```markdown
+```python
 import cv2
 import os
 video = cv2.VideoCapture(0)
@@ -28,7 +28,7 @@ facedetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 </br>
 
-```markdown
+```python
 facedetect = cv2.CascadeClassifier('/Users/adarshtiwari/Desktop/face_recognition_system-main/Face Recognition System/haarcascade_frontalface_default.xml')
 cap=cv2.VideoCapture(1)
 cap.set(3, 640)
