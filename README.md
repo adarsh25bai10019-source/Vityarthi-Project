@@ -8,7 +8,7 @@
 
 </br>
 
-Features
+Features 📚
 
 ```python
 
@@ -52,3 +52,29 @@ tensorflow
 numpy
 cv2
 os
+```
+<br>
+
+You can download these libraries using the pip command, a example is shown below.
+
+```markdown
+pip install tensorflow
+```
+
+</br>
+
+<p>Steps to install and run the project :  </p>
+1. Download the zip file from github repository.
+2. Unzip the file in your local environment.
+3. Open the python files in a code editor.
+4. Collect visual data by inputting your name in the datacollect.py module.
+5. Feed the data in google teachebale machine (https://teachablemachine.withgoogle.com/).
+6. Download the keras model optimised for your visual data.
+7. Run the test.py module and change the labels for the image accoridng to your prefernce.
+
+</br>
+
+<p>Important instructions for testing and using the code.  </p>
+
+1. 
+
