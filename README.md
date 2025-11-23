@@ -1,2 +1,5 @@
 # Vityarthi-Project
-This repository is made to showcase my face recognition project.
+## FACE RECOGNITION AND DETECTION SYSTEM
+
+
+
