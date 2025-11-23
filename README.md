@@ -80,8 +80,13 @@ pip install tensorflow
 7. Run the test.py module and change the labels for the image accoridng to your prefernce.
 
 </br>
+</br>
+
 
 <p>Important instructions for testing and using the code.  </p>
 
-1. 
+1. Check whether the indentation is correct.
+2. Make sure to place the supporting modules are in the correct folder.
+3. Make sure to provide the correct path to the modules.
+   
 
