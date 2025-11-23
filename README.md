@@ -8,10 +8,9 @@
 
 </br>
 
- ### Features 📚
+ ### Features 
 
 ```python
-
 import cv2
 import os
 
