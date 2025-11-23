@@ -90,6 +90,11 @@ pip install tensorflow
 3. Make sure to provide the correct path to the modules.
 4. In the github zip the a "image" folder must be created by the user else the machine will throw an error.
 
+<div align="center">
 
+<img src="https://github.com/username/repo/raw/main/.github/images/abc123.jpg" width="48%" />
+<img src="https://github.com/username/repo/raw/main/.github/images/xyz987.png" width="48%" />
+
+</div>
    
 
