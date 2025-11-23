@@ -47,7 +47,7 @@ def get_className(classNo):
 
 </br>
 
- ### The libraries involved in this project : 
+### The libraries involved in this project : 
 
 ```markdown
 tensorflow
@@ -65,7 +65,7 @@ pip install tensorflow
 
 </br>
 
- ### Steps to install and run the project :  
+### Steps to install and run the project :  
 </br>
 1. Download the zip file from github repository.
 </br>
