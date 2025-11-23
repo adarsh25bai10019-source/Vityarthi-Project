@@ -4,6 +4,6 @@
 
 </br>
 
-![Your description here]()
+![A sample image of the project](https://github.com/adarsh25bai10019-source/Vityarthi-Project/blob/main/Face_recog_sample.jpeg?raw=true)
 
 
