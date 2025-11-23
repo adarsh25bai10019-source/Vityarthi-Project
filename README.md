@@ -28,24 +28,6 @@ facedetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 </br>
 
-```python
-facedetect = cv2.CascadeClassifier('/Users/adarshtiwari/Desktop/face_recognition_system-main/Face Recognition System/haarcascade_frontalface_default.xml')
-cap=cv2.VideoCapture(1)
-cap.set(3, 640)
-cap.set(4, 480)
-font=cv2.FONT_HERSHEY_COMPLEX
-model = load_model('/Users/adarshtiwari/Desktop/face_recognition_system-main/Face Recognition System/keras_model.h5')
-def get_className(classNo):
-	if classNo==0:
-		return "Adarsh"
-	elif classNo==1:
-		return "Nirmala Sitaraman"
-```
-<p>This is a code snippet from the test.py and it opens the camera indexed 1 which is the secondary camera , cv2.cVideoCapture(0) opens the primary camera. </p>
-<p>Then we load the keras model which is downloaded from the google teachebale machine and def the categories for which the machine has to dispaly the tag. </p>
-<p>If the model matches the data with the historical data from either of the category it will return 0 and 1 . </p>
-
-</br>
 
 ### The libraries involved in this project : 
 
