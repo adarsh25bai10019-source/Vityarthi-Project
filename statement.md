@@ -6,3 +6,8 @@ In educational institutions and corporate environments, conventional methods of 
 2. Human Computer interaction.
 3. Passenger screening.
 4. Face id used in phones 
+
+# High-level features
+1. Face detection
+2. Feature extraction
+3. Face matching
