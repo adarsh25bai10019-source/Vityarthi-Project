@@ -26,6 +26,22 @@ facedetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 <p> This Code snippet enables the camera to capture pictorial data and store it in a folder.</p>
 
+2. The image folder
+``` python
+path='images/'+nameID
+
+isExist = os.path.exists(path)
+
+if isExist:
+	print("Name Already Taken")
+	nameID=str(input("Enter Your Name Again: "))
+else:
+	os.makedirs(path)
+```
+</br>
+<p> This code introduces a image folder and checks for the path if it is already made then the images are stored in that folder else it will create that folder to store the data. </p>
+
+
 </br>
 
 
