@@ -26,6 +26,9 @@ facedetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 <p> This Code snippet enables the camera to capture pictorial data and store it in a folder.</p>
 
+</br> 
+
+
 2. The image folder
 ``` python
 path='images/'+nameID
@@ -44,6 +47,35 @@ else:
 
 </br>
 
+3. The Prediction model
+
+```python
+while True:
+	sucess, imgOrignal=cap.read()
+	faces = facedetect.detectMultiScale(imgOrignal,1.3,5)
+	for x,y,w,h in faces:
+		crop_img=imgOrignal[y:y+h,x:x+h]
+
+		crop_img = imgOrignal[y:y+h, x:x+w]          
+		img = cv2.resize(crop_img, (224, 224))
+		img = img.astype("float32") / 255.0          
+		img = np.expand_dims(img, axis=0)            
+
+		prediction = model.predict(img, verbose=0)   
+		prediction = tf.nn.softmax(prediction)       
+		classIndex = np.argmax(prediction, axis=1)[0]
+		probabilityValue = np.max(prediction)     
+
+```
+
+<p>This code is the prediction model of the face detection system it runs until the camera reads and captures human faces then uses its prediction model by alinging to the data provided to it via the google teachable machine . </p>
+
+</br>
+
+```python
+prediction = tf.nn.softmax(prediction)
+```
+<p>The softmax function converts a vector of raw scores (also called logits) into a probability distribution</p>
 
 ### The libraries involved in this project : 
 
