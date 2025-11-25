@@ -121,6 +121,7 @@ pip install tensorflow
 2. Make sure to place the supporting modules are in the correct folder.
 3. Make sure to provide the correct path to the modules.
 4. In the github zip the a "image" folder must be created by the user else the machine will throw an error.
+5. Make sure to provide proper local path to the `haarcascade_frontalface_default.xml`.
 
 </br>
 
